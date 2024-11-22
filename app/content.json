@@ -1,0 +1,66 @@
+{
+  "intro": {
+    "title": "Daniel Heim",
+    "subtitle": "Software Engineer Extraordinaire",
+    "desc": "An experienced developer with a passion for crafting elegant solutions and engaging experiences.",
+    "socials": [
+      {
+        "id": "linkedin",
+        "title": "LinkedIn",
+        "href": "https://linkedin.com/in/danielheim"
+      },
+      {
+        "id": "x",
+        "title": "X",
+        "href": "https://x.com/danielheim82"
+      },
+      {
+        "id": "github",
+        "title": "GitHub",
+        "href": "https://github.com/danielheim"
+      }
+    ]
+  },
+  "about": {
+    "title": "Who I am",
+    "desc": [
+      "I've been immersed in the world of software development since I was young, constantly sharpening my skills and adapting to the ever-changing industry. I'm hooked on the dynamic nature of this field and I love tackling the challenges that come with each new advancement.",
+      "As a <strong>Senior Software Developer</strong> at <a href='https://akqa.com' target='_blank' rel='noopener noreferrer'>AKQA</a>, I have worked alongside some of the biggest names in the global tech scene. It's given me invaluable insights into large-scale software development projects and the opportunity to contribute to cutting-edge solutions."
+    ]
+  },
+  "services": {
+    "title": "What I do",
+    "items": [
+      {
+        "id": "game",
+        "title": "Games",
+        "desc": [
+          "I am an expert game developer with a proven track record of creating immersive and captivating experiences using <strong>Unity3D</strong>, <strong>C#</strong>, and <strong>JavaScript technologies</strong>.",
+          "You may have experienced some of my work in the award-winning <a href='https://agentagame.com' target='_blank' rel='noopener noreferrer'>Agent A: A Puzzle In Disguise.</a>"
+        ],
+        "img": "/images/joystick.png"
+      },
+      {
+        "id": "mobile",
+        "title": "Mobile",
+        "desc": [
+          "With proficiency in both native and modern hybrid approaches to mobile development, I have produced innumerable applications with sleek and responsive designs. I am experienced with <strong>Android</strong> and <strong>iOS SDKs</strong>, and skilled in <strong>React Native</strong>.",
+          "Most recently, I lead the development of the <a href='https://movember.com/get-the-movember-app' target='_blank' rel='noopener noreferrer'>Movember</a> mobile application which saw <strong>$32 million</strong> in donations flow through app users in four weeks."
+        ],
+        "img": "/images/pda.png"
+      },
+      {
+        "id": "web",
+        "title": "Web",
+        "desc": [
+          "I have acquired a wealth of experience with over 20 years of hands-on experience in web technologies. From the early days of <strong>HTML</strong> to the modern advancements in <strong>CSS</strong> and <strong>JavaScript/Typescript</strong> tools and libraries, I've remained at the forefront of the ever-evolving web landscape.",
+          "Crafting responsive layouts and engaging experiences have been the hallmarks of my extensive career."
+        ],
+        "img": "/images/computer.png"
+      }
+    ]
+  },
+  "work": {
+    "title": "What I've done"
+  }
+}
