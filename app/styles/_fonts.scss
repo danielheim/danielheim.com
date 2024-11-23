@@ -1,21 +1,7 @@
 @use "./colors";
 
-@font-face {
-  font-family: "Norwester";
-  src: url("../fonts/norwester.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Kollektif";
-  src: url("../fonts/kollektif/Kollektif.ttf") format("truetype");
-}
-
-//$font-family-headings: Norwester, sans-serif;
-$font-family-subheadings: Kollektif, serif;
-
 %heading {
   color: colors.$color-heading;
-  //font-family: $font-family-headings;
   font-size: 1.5em;
   font-weight: normal;
   line-height: 1;
@@ -24,6 +10,5 @@ $font-family-subheadings: Kollektif, serif;
 
 %subheading {
   color: colors.$color-subheading;
-  //font-family: $font-family-subheadings;
   font-size: 1.3rem;
 }
