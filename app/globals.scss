@@ -2,22 +2,23 @@
   $media-type: screen
 );
 
-@import "./styles/colors";
-@import "./styles/fonts";
+@use "./styles/colors";
+@use "./styles/fonts";
 
 body {
   margin: 0;
-  font-family: $font-family-body;
+  //font-family: $font-family-body;
   font-weight: 300;
 
   background-color: #12101e;
-  color: $color-text;
+  color: colors.$color-text;
   line-height: 1.5;
   min-width: 240px;
 }
 
 strong {
-  color: $color-subheading;
+  color: colors.$color-subheading;
+  font-weight: 500;
 }
 
 .heading {
@@ -35,14 +36,14 @@ article h1 {
 a,
 a:link,
 a:visited {
-  color: $color-subheading;
+  color: colors.$color-accent;
   text-decoration: none;
 }
 
 a:active,
 a:hover,
 a:focus {
-  color: $color-accent;
+  color: colors.$color-accent;
   text-decoration: underline;
 }
 
@@ -65,7 +66,7 @@ $max-width: 980px;
 }
 
 .footer {
-  color: $color-text-footer;
+  color: colors.$color-text-footer;
   text-align: center;
   font-size: small;
 }
