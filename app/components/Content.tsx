@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react";
 import { Desc } from "./Desc";
+import { heading, subheading } from "../fonts";
 
 type Props = {
   id: string;
@@ -25,6 +26,7 @@ export function Content({
       <header>
         <h1
           className={[
+            heading.className,
             "heading",
             isHeadingLarge && "heading--large",
             `${blockName}__title`,
@@ -34,7 +36,11 @@ export function Content({
         >
           {title}
         </h1>
-        {subtitle && <p className={`${blockName}__subtitle`}>{subtitle}</p>}
+        {subtitle && (
+          <p className={`${subheading.className} ${blockName}__subtitle`}>
+            {subtitle}
+          </p>
+        )}
       </header>
       {desc && <Desc blockName={blockName} desc={desc} thin={true} />}
       {children}

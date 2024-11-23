@@ -1,30 +1,7 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Footer } from "./components/Footer";
-import { Rubik } from "next/font/google";
-
+import { body as bodyFont } from "./fonts";
 import "./globals.scss";
-
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
-
-const norwester = localFont({
-  src: "./fonts/norwester.otf",
-});
-
-const kollektif = localFont({
-  src: "./fonts/kollektif/Kollektif.ttf",
-});
-
-const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -38,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${rubik.className}`}>
+      <body className={`${bodyFont.className}`}>
         <div className={"app"}>
           <main className={"app__item"}>{children}</main>
           <footer className={"app__item"}>

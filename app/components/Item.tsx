@@ -1,3 +1,4 @@
+import { subheading } from "../fonts";
 import { Desc } from "./Desc";
 
 type Props = {
@@ -17,7 +18,7 @@ export function Item({ id, blockName, title, desc, img }: Props) {
       )}
       <div>
         <header>
-          <h1>{title}</h1>
+          <h1 className={subheading.className}>{title}</h1>
         </header>
         <Desc desc={desc} />
       </div>

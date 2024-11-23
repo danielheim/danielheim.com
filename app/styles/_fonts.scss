@@ -10,15 +10,12 @@
   src: url("../fonts/kollektif/Kollektif.ttf") format("truetype");
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
-
-$font-family-body: Rubik, sans-serif;
-$font-family-headings: Norwester, sans-serif;
+//$font-family-headings: Norwester, sans-serif;
 $font-family-subheadings: Kollektif, serif;
 
 %heading {
   color: colors.$color-heading;
-  font-family: $font-family-headings;
+  //font-family: $font-family-headings;
   font-size: 1.5em;
   font-weight: normal;
   line-height: 1;
@@ -27,7 +24,6 @@ $font-family-subheadings: Kollektif, serif;
 
 %subheading {
   color: colors.$color-subheading;
-  font-family: $font-family-subheadings;
+  //font-family: $font-family-subheadings;
   font-size: 1.3rem;
-  //text-transform: uppercase;
 }
