@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Desc } from "./Desc";
 
 type Props = {
@@ -13,13 +12,8 @@ export function Item({ id, blockName, title, desc, img }: Props) {
   return (
     <article className={blockName} key={id} id={id}>
       {img && (
-        <Image
-          className={`${blockName}__img`}
-          src={img}
-          alt=""
-          width={128}
-          height={128}
-        />
+        // eslint-disable-next-line @next/next/no-img-element
+        <img className={`${blockName}__img`} src={img} alt="" />
       )}
       <div>
         <header>
