@@ -3,9 +3,13 @@ import { Footer } from "./components/Footer";
 import { body as bodyFont } from "./fonts";
 import "./globals.scss";
 
+import * as content from "./content.json";
+
+const { intro } = content;
+
 export const metadata: Metadata = {
-  title: `${title} &middot; ${subtitle}`,
-  description: desc,
+  title: `${intro.title} &middot; ${intro.subtitle}`,
+  description: intro.desc,
 };
 
 export default function RootLayout({
