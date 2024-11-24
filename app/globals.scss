@@ -92,7 +92,7 @@ $max-width: 980px;
     padding: 0;
     margin: 1.5em auto;
 
-    svg {
+    img {
       width: 1.5em;
       height: 1.5rem;
       @include mq.mq($until: desktop) {

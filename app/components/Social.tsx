@@ -1,26 +1,14 @@
 type Props = {
+  id: string;
   title: string;
   href: string;
 };
 
-export const Social = ({ href, title }: Props) => {
-  //   const svg = (() => {
-  //     switch (props.id) {
-  //       case "github":
-  //         return <GithubSvg />;
-  //       case "linkedin":
-  //         return <LinkedinSvg />;
-  //       case "twitter":
-  //         return <TwitterSvg />;
-  //       default:
-  //         return null;
-  //     }
-  //   })();
-
+export const Social = ({ id, href, title }: Props) => {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
-      {/* {svg} */}
-      {title}
+    <a className="social" href={href} target="_blank" rel="noopener noreferrer">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`/images/social/${id}.svg`} alt={title} />
     </a>
   );
 };
