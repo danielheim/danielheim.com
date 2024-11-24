@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
 import { Footer } from "./components/Footer";
+import { LogScreenView } from "./components/LogScreenView";
 import { body as bodyFont } from "./fonts";
 import "./globals.scss";
-import { LogScreenView } from "./components/LogScreenView";
 
 import * as content from "./content.json";
 
 const { intro } = content;
-const { title, subtitle, desc } = intro;
 
 export const metadata: Metadata = {
-  title: `${title} &middot; ${subtitle}`,
-  description: desc,
+  title: `${intro.title} • ${intro.subtitle}`,
+  description: intro.desc,
 };
 
 export default function RootLayout({
