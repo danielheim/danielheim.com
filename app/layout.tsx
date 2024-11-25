@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Footer } from "./components/Footer";
 import { LogScreenView } from "./components/LogScreenView";
 import { body as bodyFont } from "./fonts";
@@ -28,6 +29,7 @@ export default function RootLayout({
             <Footer />
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
