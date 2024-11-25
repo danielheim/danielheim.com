@@ -13,14 +13,6 @@ export function LogScreenView({
 }) {
   useEffect(
     () => {
-      // if (!analytics) {
-      //   console.warn("Firebase Analytics not available.");
-      //   return;
-      // }
-      // logEvent(analytics, "screen_view", {
-      //   firebase_screen: screen,
-      //   firebase_screen_class: screenClass,
-      // });
       isSupported().then((isSupported) => {
         if (!isSupported) return;
         logEvent(getAnalytics(app), "screen_view", {

@@ -14,13 +14,4 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-// let analytics: Analytics | undefined;
-// isSupported().then((isSupported) => {
-//   if (!isSupported) return;
-//   console.log({ firebaseConfig });
-//   if (!firebaseConfig.projectId) return;
-//   analytics = getAnalytics(app);
-// });
-
-export { app };
+export const app = initializeApp(firebaseConfig);
