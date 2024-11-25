@@ -13,7 +13,10 @@ export function LogScreenView({
 }) {
   useEffect(
     () => {
-      if (!analytics) return;
+      if (!analytics) {
+        console.warn("Firebase Analytics not available.");
+        return;
+      }
       logEvent(analytics, "screen_view", {
         firebase_screen: screen,
         firebase_screen_class: screenClass,
