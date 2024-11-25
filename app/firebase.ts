@@ -9,6 +9,11 @@ import { getAnalytics, isSupported, Analytics } from "firebase/analytics";
 const json = process.env.FIREBASE_CONFIG;
 const firebaseConfig = json ? JSON.parse(json) : {};
 
+if (process.env.NODE_ENV !== "production") {
+  // This is expected locally.
+  if (!json) console.warn("No firebase configuration found in environment.");
+}
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 let analytics: Analytics | undefined;
