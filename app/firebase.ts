@@ -1,6 +1,5 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics, isSupported, Analytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -16,11 +15,12 @@ if (process.env.NODE_ENV !== "production") {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-let analytics: Analytics | undefined;
-isSupported().then((isSupported) => {
-  if (!isSupported) return;
-  if (!firebaseConfig.projectId) return;
-  analytics = getAnalytics(app);
-});
+// let analytics: Analytics | undefined;
+// isSupported().then((isSupported) => {
+//   if (!isSupported) return;
+//   console.log({ firebaseConfig });
+//   if (!firebaseConfig.projectId) return;
+//   analytics = getAnalytics(app);
+// });
 
-export { analytics };
+export { app };
