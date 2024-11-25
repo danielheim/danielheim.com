@@ -22,10 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${bodyFont.className}`}
-        data-firebase={process.env.FIREBASE_CONFIG}
-      >
+      <body className={`${bodyFont.className}`}>
         <LogScreenView screen="home" screenClass="Home" />
         <div className={"app"}>
           <main className={"app__item"}>{children}</main>

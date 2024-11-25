@@ -6,7 +6,7 @@ import { getAnalytics, isSupported, Analytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const json = process.env.FIREBASE_CONFIG;
+const json = process.env.NEXT_PUBLIC_FIREBASE_CONFIG;
 const firebaseConfig = json ? JSON.parse(json) : {};
 
 if (process.env.NODE_ENV !== "production") {
