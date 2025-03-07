@@ -10,7 +10,12 @@
         "href": "https://linkedin.com/in/danielheim"
       },
       {
-        "id": "twitterx",
+        "id": "bluesky",
+        "title": "Bluesky",
+        "href": "https://bsky.app/profile/danielheim.bsky.social"
+      },
+      {
+        "id": "x-twitter",
         "title": "X",
         "href": "https://x.com/danielheim82"
       },
