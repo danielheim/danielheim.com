@@ -30,7 +30,7 @@
     "title": "Who I am",
     "desc": [
       "I've been immersed in the world of software development since I was young, constantly sharpening my skills and adapting to the ever-changing industry. I'm hooked on the dynamic nature of this field and I love tackling the challenges that come with each new advancement.",
-      "As a <strong>Senior Software Developer</strong> at <a href='https://akqa.com' target='_blank' rel='noopener noreferrer'>AKQA</a>, I have worked alongside some of the biggest names in the global tech scene. It's given me invaluable insights into large-scale software development projects and the opportunity to contribute to cutting-edge solutions."
+      "As a <strong>Principal Engineer</strong> at <a href='https://akqa.com' target='_blank' rel='noopener noreferrer'>AKQA</a>, I have worked alongside some of the biggest names in the global tech scene. It's given me invaluable insights into large-scale software development projects and the opportunity to contribute to cutting-edge solutions."
     ]
   },
   "services": {
@@ -50,7 +50,7 @@
         "title": "Mobile",
         "desc": [
           "With proficiency in both native and modern hybrid approaches to mobile development, I have produced innumerable applications with sleek and responsive designs. I am experienced with <strong>Android</strong> and <strong>iOS SDKs</strong>, and skilled in <strong>React Native</strong>.",
-          "Most recently, I lead the development of the <a href='https://movember.com/get-the-movember-app' target='_blank' rel='noopener noreferrer'>Movember</a> mobile application which saw <strong>$32 million</strong> in donations flow through app users in four weeks."
+          "In 2023, I lead development of the <a href='https://movember.com/get-the-movember-app' target='_blank' rel='noopener noreferrer'>Movember</a> mobile application which saw <strong>$32 million</strong> in donations flow through app users in the first four weeks."
         ],
         "img": "/images/pda.png"
       },
